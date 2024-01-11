@@ -1,5 +1,5 @@
 {% set name = "tricycle" %}
-{% set version = "0.3.0" %}
+{% set version = "0.4.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/tricycle-{{ version }}.tar.gz
-  sha256: 57d854a61361e3b45b615b069bcf105fb0d6979d534ed7338e26b51d3ed28473
+  sha256: e203f7f366e22a4ae0224334953cb9d97f56b8d1f8d08c0934dec64736880d7c
 
 build:
   noarch: python
